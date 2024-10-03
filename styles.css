@@ -128,7 +128,7 @@ body {
   }
   .sec2__conteudo img {
     width: 340px;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   .sec2__conteudo ul {
     width: 330px;
@@ -150,6 +150,44 @@ body {
   }
   .conteudo__li_desktop {
     display: none;
+  }
+  .sec3__artistas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .sec3__titulo {
+    color: white;
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 3em;
+  }
+  .sec3__paragrafo {
+    color: white;
+    font-family: var(--font-Open);
+    width: 350px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .swiper {
+    width: 330px;
+    height: 180px;
+    border-radius: 20px;
+  }
+  .imagens__slide {
+    width: 330px;
+    height: 180px;
+  }
+  .imagens__slide1 {
+    background-image: url(./imagens/Banner1\ section\ artistas.png);
+  }
+  .imagens__slide2 {
+    background-image: url(./imagens/banner2\ section\ artistas.png);
+  }
+  .imagens__slide3 {
+    background-image: url(./imagens/banner3\ section\ artistas.png);
   }
 }
 /* Desktop */
@@ -244,6 +282,7 @@ body {
     color: white;
     font-family: var(--font-Poppins);
     font-weight: 600;
+    font-size: 30px;
   }
   .sec2__conheca p {
     color: white;
@@ -276,6 +315,87 @@ body {
     font-family: var(--font-Open);
     list-style-position: outside;
     line-height: 1.5;
+  }
+  .sec3__artistas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .sec3__titulo {
+    color: white;
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 1em;
+  }
+  .sec3__paragrafo {
+    color: white;
+    font-family: var(--font-Open);
+    width: 1000px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .swiper {
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  .imagens__slide1 {
+    background-image: url(./imagens/banner1\ artistas\ desktop.png);
+    background-size: cover;
+  }
+  .imagens__slide2 {
+    background-image: url(./imagens/banner2\ artistas\ desktop.png);
+    background-size: cover;
+  }
+  .imagens__slide3 {
+    background-image: url(./imagens/banner3\ artistas\ dektop.png);
+    background-size: cover;
+  }
+  .sec4__maisOuvidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+  }
+  .container__maisOuvidas {
+    background-color: #8E2DE2;
+    width: 1250px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container__maisOuvidas h2 {
+    margin-top: 0.5em;
+    font-size: 35px;
+    font-family: var(--font-Poppins);
+    color: white;
+  }
+  .swiper-container {
+    margin-top: 1em;
+    width: 1000px; /* Define a largura do container */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa a largura */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 250px);
+  }
+  .swiper-slide {
+    width: 33.3333333333%; /* Calcula a largura de cada slide para mostrar 3 por vez */
+    flex-shrink: 0; /* Impede que os slides encolham para caber no container */
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 1em;
+  }
+  .player {
+    width: 250px;
+    height: 320px;
+    background-color: black;
+    border-radius: 20px;
   }
 }
 

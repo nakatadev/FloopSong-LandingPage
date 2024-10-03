@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melodia</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -47,6 +50,43 @@
         <h2 class="sec3__titulo">Descubra o Novo, Apoie o Próximo</h2>
         <p class="sec3__paragrafo">Somos uma plataforma feita para dar voz aos novos talentos, conectando artistas incríveis com ouvintes que buscam algo original.</p>
 
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide imagens__slide1"></div>
+            <div class="swiper-slide imagens__slide2"></div>
+            <div class="swiper-slide imagens__slide3"></div>
+            </div>
+        </div>
     </section>
+
+    <section class="sec4__maisOuvidas">
+        <div class="container__maisOuvidas">
+            <h2>Mais ouvidas</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper lista__slides">
+                    <div class="swiper-slide">
+                        <div class="player"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="player"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="player"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="player"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="player"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 </html>
