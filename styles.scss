@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --font-Open: 'Open Sans', sans-serif
+}
+
+
+/* Correção de margens */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+
+
+/* mobile */
+@media (min-width: 280px) and (max-width: 768px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        height: 4em;
+    }
+    .logo__header {
+        width: 80px;
+        margin-left: 6.5em;
+    }
+    .li__desktop {
+        display: none;
+    }
+    nav {
+        margin-left: 2em;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        color: white;
+        font-size: 12px;
+        font-family: var(--font-Open);
+    }
+}
+
+
+
+
+/* Desktop */
+@media (min-width: 769px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        height: 60px;
+    }
+    nav {
+        margin-right: 10em;
+    }
+    .logo__header {
+        width: 80px;
+        margin-left: 8em;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    li {
+        color: white;
+        margin: 0 2em 0 2em;
+        font-family: var(--font-Open);
+        font-size: 12px;
+    }
+    
+}
