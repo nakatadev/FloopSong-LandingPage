@@ -113,13 +113,13 @@ body {
         color: white;
         font-family: var(--font-Poppins);
         font-weight: 600;
-        font-size: 16px;
+        font-size: 25px;
     }
     .sec2__conheca p {
         color: white;
         font-family: var(--font-Open);
         width: 350px;
-        font-size: 11px;
+        font-size: 15px;
         text-align: center;
     }
     .sec2__conteudo {
@@ -147,7 +147,7 @@ body {
         color: white;
         align-items: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 15px;
         font-family: var(--font-Open);
         list-style-position: outside;
         line-height: 1.5;
@@ -166,14 +166,14 @@ body {
         color: white;
         font-family: var(--font-Poppins);
         font-weight: 600;
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 3em;
     }
     .sec3__paragrafo {
         color: white;
         font-family: var(--font-Open);
         width: 350px;
-        font-size: 11px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -184,7 +184,7 @@ body {
       }
     .imagens__slide {
         width: 330px;
-        height: 180px;
+        height: 250px;
     }
 
     .imagens__slide1 {
@@ -197,6 +197,113 @@ body {
         background-image: url(./imagens/banner3\ section\ artistas.png);
     }
 
+
+    .sec4__maisOuvidas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+    .container__maisOuvidas {
+        background-color: #8E2DE2;
+        width: 340px;
+        height: 200px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container__maisOuvidas h2 {
+        margin-top: -1em;
+        font-size: 20px;
+        font-family: var(--font-Poppins);
+        color: white;
+    }
+
+    .swiper-container {
+        margin-top: 1em;
+        width: 280px; /* Define a largura do container */
+        overflow: hidden; /* Oculta o conteúdo que ultrapassa a largura */
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(3, 80px);
+      }
+    .swiper-slide {
+        width: calc(100% / 3); /* Calcula a largura de cada slide para mostrar 3 por vez */
+        flex-shrink: 0; /* Impede que os slides encolham para caber no container */
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .player {
+        width: 100px;
+        height: 130px;
+        background-color: black;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.2em;
+    }
+    .sec4__imagem {
+        width: 90px;
+        height: 70px;
+        margin-top: 0.4em;
+        border-radius: 20px;
+    }
+    .sec4__infosMusic {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80px;
+    }
+    .sec4__infosMusic img {
+        display: none;
+    }
+    .sec4__nomeMusica {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: white;
+        font-family: var(--font-Poppins);
+        font-size: 7px
+    }
+    .sec4__nomeMusica h4 {
+        color: white;
+        font-family: var(--font-Poppins);
+        font-size: 7px;
+        font-weight: 800;
+    }
+
+    .sec4__player {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 1em;
+    }
+    .sec4__player button {
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .sec4__player button img {
+        width: 8px;
+    }
+    .sec4__btnPlay {
+        background-image: url(./imagens/Icone\ Play.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 15px;
+    }
+    .sec4__btnPlay2 {
+        width: 20px !important;
+    }
+    .sec4__btnPlay1 {
+        display: none;
+    }
 
 }
 
@@ -409,14 +516,67 @@ body {
         flex-shrink: 0; /* Impede que os slides encolham para caber no container */
         display: grid;
         grid-template-columns: auto;
-        margin: 0 1em;
     }
 
     .player {
         width: 250px;
-        height: 320px;
+        height: 300px;
         background-color: black;
         border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.2em;
     }
+    .sec4__imagem {
+        width: 220px;
+        height: 170px;
+        margin-top: 1em;
 
+    }
+    .sec4__infosMusic {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+    }
+    .sec4__infosMusic img {
+        width: 25px;
+        height: 18px;
+    }
+    .sec4__nomeMusica {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .sec4__nomeMusica h4 {
+        color: white;
+        font-family: var(--font-Poppins);
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .sec4__nomeMusica {
+        color: white;
+        font-family: var(--font-Poppins);
+        font-size: 10px
+    }
+    .sec4__player {
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 1em;
+    }
+    .sec4__player button {
+        background-color: transparent;
+        border: none;
+    }
+    .sec4__btnPlay2 {
+        display: none;
+    }
+    .sec4__btnPlay1 {
+        width: 40px;
+        margin: 0 1em 0 1em;
+    }
 }

@@ -9,11 +9,11 @@ const swiper = new Swiper('.swiper', {
 
 const swiper2 = new Swiper('.swiper-container', {
     direction: 'horizontal', // Direção horizontal
-    loop: true, // Ativa o loop infinito
-    slidesPerView: 3, // Mostra 3 players por vez 
-    slidesPerGroup: 1, // Avança de um player por vez
-    // autoplay: {
-    //     delay: 1500,
-    //     disableOnInteraction: false,
-    //   },
+    loop: true,
+    slidesPerView: 3, 
+    slidesPerGroup: 1,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
 });
