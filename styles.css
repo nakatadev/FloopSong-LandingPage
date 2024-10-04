@@ -231,7 +231,7 @@ body {
     width: 100px;
     height: 130px;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -242,7 +242,7 @@ body {
     width: 90px;
     height: 70px;
     margin-top: 0.4em;
-    border-radius: 20px;
+    border-radius: 10px;
   }
   .sec4__infosMusic {
     display: flex;
@@ -387,7 +387,7 @@ body {
   }
 }
 /* Desktop */
-@media (min-width: 769px) and (max-width: 1600px) {
+@media (min-width: 769px) {
   header {
     display: flex;
     align-items: center;
