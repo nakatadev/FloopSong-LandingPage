@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melodia</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="modal.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -23,7 +25,7 @@
 
     <section class="sec1_apresentacao">
         <div class="sec1__container">
-            <h1 class="sec1__titulo">Seja qual for o momento, a Melodia tem a trilha sonora ideal.</h1>
+            <h1 class="sec1__titulo">Seja qual for o momento, a Floop tem a trilha sonora ideal.</h1>
             <p class="sec1__paragrafo">Descubra novas músicas, conecte-se com artistas e personalize sua experiência com playlists exclusivas e recomendações feitas para você.</p>
             <a href="#" class="sec1__btn">Ouça agora</a>
         </div>
@@ -31,8 +33,8 @@
 
     <section class="sec2__sobre">
         <div class="sec2__conheca">
-            <h2>Conheça a Melodia</h2>
-            <p>A Melodia é o novo jeito de viver a música. Descubra novos artistas, curta playlists personalizadas e receba recomendações feitas para você, tudo em uma interface moderna e intuitiva.</p>
+            <h2>Conheça a Floop</h2>
+            <p>A Floop é o novo jeito de viver a música. Descubra novos artistas, curta playlists personalizadas e receba recomendações feitas para você, tudo em uma interface moderna e intuitiva.</p>
         </div>
         <div class="sec2__conteudo">
             <img src="./imagens/Aplicativo Floop (2).png" alt="Aplicativo Melodia">
@@ -78,7 +80,8 @@
                             </div>
                             <div class="sec4__player">
                                 <button><img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda"></button>
-                                <button type="button" onclick="" ><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
+
+                                <button type="button" onclick="abrirModal(1)"><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
                                     <img src="./imagens/Icone play mobile.png" alt="Icone play" class="sec4__btnPlay2"></button>
                                 <button><img src="./imagens/Seta player direita.svg" alt="Seta PLayer direita"></button>
                             </div>
@@ -97,7 +100,8 @@
                             </div>
                             <div class="sec4__player">
                                 <button><img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda"></button>
-                                <button type="button" onclick="" ><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
+
+                                <button type="button" onclick="abrirModal(2)"><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
                                     <img src="./imagens/Icone play mobile.png" alt="Icone play" class="sec4__btnPlay2"></button>
                                 <button><img src="./imagens/Seta player direita.svg" alt="Seta PLayer direita"></button>
                             </div>
@@ -116,7 +120,8 @@
                             </div>
                             <div class="sec4__player">
                                 <button><img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda"></button>
-                                <button type="button" onclick="" ><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
+
+                                <button type="button" onclick="abrirModal(3)"><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
                                     <img src="./imagens/Icone play mobile.png" alt="Icone play" class="sec4__btnPlay2"></button>
                                 <button><img src="./imagens/Seta player direita.svg" alt="Seta PLayer direita"></button>
                             </div>
@@ -135,7 +140,7 @@
                             </div>
                             <div class="sec4__player">
                                 <button><img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda"></button>
-                                <button type="button" onclick="" ><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
+                                <button type="button" onclick="abrirModal(4)"><img src="./imagens/Icone Play.svg" alt="Botão Play" class="sec4__btnPlay1">
                                     <img src="./imagens/Icone play mobile.png" alt="Icone play" class="sec4__btnPlay2"></button>
                                 <button><img src="./imagens/Seta player direita.svg" alt="Seta PLayer direita"></button>
                             </div>
@@ -176,5 +181,28 @@
         </div>
     </footer>
 
+    <dialog id="modal" class="box">
+        <button type="button" class="modal__btnClose" onclick="fecharModal()">✖</button>
+        
+        <img src="" alt="" class="banner">
+    
+        <div class="modal__info">
+            <h2 class="modal__titulo"></h2>
+            <p class="modal__artista"></p>
+        </div>
+    
+        <div class="buttons__player">
+            <button type="button" onclick="" class="modal__btnNext">
+                <img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda">
+            </button>
+            <button type="button" onclick="" class="modal__btnPlay1">
+                <img src="./imagens/Icone Play.svg" alt="Botão Play">
+            </button>
+            <button type="button" onclick="" class="modal__btnNext">
+                <img src="./imagens/Seta player direita.svg" alt="Seta player direita">
+            </button>
+        </div>
+    </dialog>
+    
 </body>
 </html>
