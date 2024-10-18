@@ -7,10 +7,5 @@ HTML5: Para a estruturação do conteúdo.
 CSS3: Estilização e layout da página, garantindo um design responsivo e moderno.
 JavaScript (ES6): Utilizado para interações dinâmicas, como a navegação entre as playlists.
 Swiper.js: Biblioteca para criação de carrosséis e sliders responsivos.
-SASS: Linguagem de extensão do CSS
+SASS/SCSS: Linguagem de extensão do CSS
 
-<h4>Grupo:</h4>
-<h5>Rodrigo Hydeik Mendes Nakata - 556417</h5>
-<h5>Gabriel Henrique Padula - 554907</h5>
-<h5>Vitor Couto Vitorino - 554965</h5>
-<h5>Gustavo Pasquini Lucas - 555454</h5>
