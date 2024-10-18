@@ -1,0 +1,26 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_353_111)">
+<path d="M58 30C58 45.464 45.464 58 30 58C14.536 58 2 45.464 2 30C2 14.536 14.536 2 30 2C45.464 2 58 14.536 58 30Z" fill="url(#paint0_linear_353_111)"/>
+</g>
+<rect x="7" y="5" width="45" height="50" fill="url(#pattern0_353_111)"/>
+<defs>
+<filter id="filter0_d_353_111" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.760784 0 0 0 0 0.796078 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_353_111"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_353_111" result="shape"/>
+</filter>
+<pattern id="pattern0_353_111" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_353_111" transform="matrix(0.01 0 0 0.009 0 0.05)"/>
+</pattern>
+<linearGradient id="paint0_linear_353_111" x1="19" y1="-6.5" x2="19" y2="49.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A6F3FF"/>
+<stop offset="1" stop-color="#00C2CB"/>
+</linearGradient>
+<image id="image0_353_111" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQklEQVR4nO3RMYoDARTD0Ln/pb11mm0S+Bp46o1Beh4AAAAAAAAAAAB8xX7M87L/HNdCdvyf41rIjv9zXAvZ8X+OXwt9XrbPcS1kgrSETJCWkAnSEjJBWkImSEvIBGkJmSAtIROkJWSCtIRMkJaQCdISMkFaQiZIS8gEaQmZIC0hE6QlZIK0hEyQlpAJ0hIyQVpCJkhLyARpCZkgLSETpCVkgrSETJCWkAnSEjJBWkImSEvIBGkJmSAtIROkJWSCtIRMkJaQCdISMkFaQiZIS8gEaQmZIC0hE6QlZIK0hEyQlpAJ0hIyQVpCJkhLyARpCZkgLSETpCVkgrSETJCWkAnSEjJBWkImSEvIBGkJmSAtIROkJWSCtIRMkJaQCfK/kG95Xvaf41rIjv9zXAvZ8X+OayE7/gcAAAAAAAAAAMDzwR+mT+0e97RSVgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

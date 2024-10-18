@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <script src="modal.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="api/api.js" defer></script>
 </head>
 <body>
     <header>
@@ -195,14 +196,15 @@
             <button type="button" onclick="" class="modal__btnNext">
                 <img src="./imagens/Seta player esquerda.svg" alt="seta player esquerda">
             </button>
-            <button type="button" onclick="" class="modal__btnPlay1">
+            <button type="button" onclick="togglePlay()" class="modal__btnPlay1">
                 <img src="./imagens/Icone Play.svg" alt="Botão Play">
             </button>
-            <button type="button" onclick="" class="modal__btnNext">
+            <button type="button" class="modal__btnNext">
                 <img src="./imagens/Seta player direita.svg" alt="Seta player direita">
             </button>
         </div>
     </dialog>
+
     
 </body>
 </html>

@@ -41,6 +41,7 @@ function abrirModal(id) {
         modal.querySelector('.modal__titulo').textContent = musica.titulo;
         modal.querySelector('.modal__artista').textContent = musica.artista;
         modal.showModal();
+        playMusic(id - 1);
     } else {
         console.error('Música não encontrada!');
     }
@@ -50,7 +51,6 @@ function fecharModal() {
     const modal = document.querySelector('dialog');
     modal.classList.remove('aberto');
     modal.close(modal);
+
 }
-
-
 
